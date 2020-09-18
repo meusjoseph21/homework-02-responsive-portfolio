@@ -1,0 +1,13 @@
+body header {
+    outline: 1px solid black;
+}
+
+.navbar {
+    outline: 1px solid black;
+}
+.spacer {
+    outline: 1px solid black;
+    display: block;
+    width: 100%;
+    height: 200px;
+}
