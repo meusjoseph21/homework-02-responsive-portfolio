@@ -1,22 +1,61 @@
-body header {
-    outline: 1px solid black;
+body {
+    width: 100%;
+    max-height: 100%;
+    outline: 2px solid black;
+}
+
+ div {
+    outline: 2px solid black;
+    text-align: center;
+}
+
+
+/* ALL NAV BAR CSS */
+.nav1 {
+    height: 100px;
 }
 
 .navbar {
-    outline: 1px solid black;
+    min-height: 100px;
+    margin-left: -20px;
+    margin-right:-20px;
+  }
+  
+  .navbar-brand {
+    padding: 0 15px;
+    height: 80px;
+    line-height: 80px;
+  }
+  
+  .navbar-toggle {
+    /* (80px - button height 34px) / 2 = 23px */
+    margin-top: 23px;
+    padding: 9px 10px !important;
+  }
+  
+
+
+
+
+
+
+.spacer1 {
+    height: 100px;
 }
-.spacer {
-    outline: 1px solid black;
-    display: block;
-    width: 100%;
+
+
+
+.about1 {
+    height: 400px;
+}
+
+.about2 {
+    height: 300px;
+}
+
+.about3 {
+    height: 100px;
+}
+.footer1 {
     height: 200px;
-}
-
-.space2 {
-    outline: 1px solid black;
-}
-
-img {
-    width: 25%;
-    height: auto;
 }

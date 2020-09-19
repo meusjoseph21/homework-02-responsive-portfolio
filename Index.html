@@ -10,57 +10,62 @@
 </head>
 
 <body>
+    <div class="container-fluid">
 
-    <div class="bg"></div>
-    <p class="py-5 text-center"></p>
-
-
-    <header class="container">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark col-12">
-            <a class="navbar-brand" href="#">Joseph Meus</a>
-             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                 <span class="navbar-toggler-icon"></span></button>
-                 <div class="collapse navbar-collapse" id="navbarText">
-                     <ul class="navbar-nav mr-auto">
-                         <li class="nav-item active">
-                             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="nav-item">
-                                 <a class="nav-link" href="#">Portfolio</a> <!--link this to portfolio page-->
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Contact</a> <!--link this to contact page-->
-                            </li>
-                      </ul>
+        <!--NAV BAR Here-->
+        <div class="row nav1">
+            <div class="col-12">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <a class="navbar-brand" href="#">Joseph Meus</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                      <div class="navbar-nav">
+                        <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="#">Portfolio</a>
+                        <a class="nav-link" href="#">Contact</a>
+                      </div>
                     </div>
-        </nav>
-    </header>
+                  </nav>
+            </div>
+        </div>
+    </div>
     <div class="container">
-        <div class="row">
-            <span class="spacer"></span>
-            <div class="col-12"></div>
+        <!--maybe there is a better way to space but this is what I came up with-->
+        <div class="row spacer1">
+            <div class="col-12">SPACER</div>
         </div>
 
-        <main>
-        <div class="row">
-                <div class="media col-6 space2">
-                    <img src="/Users/joey/Desktop/classwork/homework/Homework 2/homework-02-responsive-portfolio/Assets/about2.jpg" class="img-responsive" class="align-self-center mr-3" alt="...">
+
+        <!--About section goes here, I want the photo and about me to be floating in the center of the page.-->
+        <div class="row about1">
+            <div class="col-2">
+                SPACER
+            </div>
+            <div class="col-8">
+                <div class="col-12 about3">
+                    <p class="text-center">Center aligned text on all viewport sizes.</p>
                 </div>
-                    <div class="media-body col-6 space2">
-                      <h5 class="mt-0">Center-aligned media</h5>
-                      <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
-                      <p class="mb-0">Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                <div class="row about2">
+                    <div class="col-6">
+                        <img src="..." class="rounded mx-auto d-block" alt="...">
                     </div>
-            
-        </div>
-        </main>
-   
+                    <div class="col-6">
+                    About Me
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+                SPACER
+            </div>
 
-        
+         <!--the footer is just a spacer-->   
+        </div>
+        <div class="row footer1">
+            <div class="col-12">FOOTER SPACER</div>
+        </div>
         
     </div>
-
-    <div class="bg"></div>
-    <p class="py-5 text-center"></p>
 </body>
 </html>
