@@ -1,11 +1,13 @@
 body {
-    width: 100%;
-    max-height: 100%;
-    outline: 2px solid black;
+    background: url('https://images.unsplash.com/photo-1475965894430-b05c9d13568a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=975&q=80') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+ 
 }
 
  div {
-    outline: 2px solid black;
     text-align: center;
 }
 
@@ -58,4 +60,9 @@ body {
 }
 .footer1 {
     height: 200px;
+}
+
+img {
+    height: auto;
+    width: 200px;
 }

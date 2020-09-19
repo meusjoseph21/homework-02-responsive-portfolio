@@ -1,0 +1,47 @@
+.nav1 {
+    height: 100px;
+}
+
+.navbar {
+    min-height: 100px;
+    margin-left: -20px;
+    margin-right:-20px;
+  }
+  
+  .navbar-brand {
+    padding: 0 15px;
+    height: 80px;
+    line-height: 80px;
+  }
+  
+  .navbar-toggle {
+    /* (80px - button height 34px) / 2 = 23px */
+    margin-top: 23px;
+    padding: 9px 10px !important;
+  }
+
+  body {
+    background: url('https://images.unsplash.com/photo-1475965894430-b05c9d13568a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=975&q=80') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+ 
+}
+
+.spacer1 {
+  height: 100px;
+}
+
+.map {
+  outline: 2px solid black;
+}
+
+.col-4{
+  height: 300px;
+}
+
+img {
+  height: auto;
+  width: 200px;
+}
