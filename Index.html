@@ -10,17 +10,10 @@
 </head>
 
 
-
-<!-- MOBILE VIEW NEEDS THE DROP DOWN MENU TO FUNCTION!!! -->
-
-
 <body>
-    <div class="container-fluid">
-
+    <header class="container-fluid">
         <!--NAV BAR Here-->
-        <div class="row nav1">
-            <div class="col-12">
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
                     <a class="navbar-brand" href="#">Joseph Meus</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                       <span class="navbar-toggler-icon"></span>
@@ -31,34 +24,41 @@
                         <a class="nav-link" href="Portfolio.html" >Portfolio</a>
                         <a class="nav-link" href="Contact.html" >Contact</a>
                       </div>
-                    </div>
-                  </nav>
-            </div>
-        </div>
-    </div>
-    <div class="container">
+                    </div> <!--These divs could be changed to nav? not sure if that is correct syntax-->
+                </nav>
+    </header>
+    <main class="container">
         <!--maybe there is a better way to space but this is what I came up with-->
-        <div class="row spacer1">
+        <section class="row spacer1">
             <div class="col-12"></div>
-        </div>
+        </section>
 
 
         <!--About section goes here, I want the photo and about me to be floating in the center of the page.-->
-        <div class="row about1 ">
-            <div class="col-2">
-            </div>
-            <div class="col-8">
-                <div class="jumbotron">
+        <section class="row about1 ">
+            <div class="col-2"></div> <!--spacer to left-->
+
+            <article class="col-8">
+                <figcaption class="jumbotron bg-transparent text-light">
                     <h1 class="display-4">About Me</h1>
                     <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae nihil aspernatur veniam, voluptatibus aut doloribus impedit officiis obcaecati ducimus, beatae enim ipsum! Quisquam cumque delectus accusantium id a, assumenda sunt! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, sint! Minima eum iure quasi quo nulla adipisci architecto quam dolorem voluptatum excepturi fugit cum ipsam sit, exercitationem incidunt fugiat quidem?</p>
+
                     <hr class="my-4">
-                    <p><img src="/Users/joey/Desktop/classwork/homework/Homework 2/homework-02-responsive-portfolio/Assets/profpic.png" class="img-fluid " alt="Responsive image"></p>
+
+
+                    <figure><img src="/Users/joey/Desktop/classwork/homework/Homework 2/homework-02-responsive-portfolio/Assets/profpic.png" class="img-fluid align-self-center mr-3" alt="Responsive image"></figure>
                     
-                  </div>
-            </div>
+                </figcaption>
+            </article>
             
-        </div>
+        <section>
         
-    </div>
+    </main>
+
+
+    <!--JAVASCRIPT FOR MOBILE DROP DOWN-->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>
