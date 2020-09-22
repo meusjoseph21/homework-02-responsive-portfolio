@@ -20,6 +20,15 @@ body {
     height: 100px;
 }
 
+.spacer2 {
+    width: 200px;
+  }
+
+  .nameAlign {
+    padding-right: 75%;
+  }
+  
+
 
 
 .about1 {
